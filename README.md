@@ -1,0 +1,1 @@
+This example demonstrates a potential issue with VBScript's `IsEmpty` function.  The `IsEmpty` function returns `True` for both uninitialized Variants and Variants containing empty strings. This can lead to unexpected behavior if your code doesn't explicitly handle this difference.  The solution offers a more robust approach.
